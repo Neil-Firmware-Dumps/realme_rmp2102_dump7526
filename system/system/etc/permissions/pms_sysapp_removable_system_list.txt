@@ -1,0 +1,14 @@
+com.android.quicksearchbox
+com.android.calendar
+com.android.dreams.basic
+com.android.musicfx
+com.android.calculator2
+com.android.email
+com.android.exchange
+com.google.android.apps.tachyon
+com.google.android.apps.docs
+com.google.android.apps.magazines
+com.google.android.apps.subscriptions.red
+com.google.android.apps.podcasts
+com.google.android.videos
+com.google.android.apps.youtube.music

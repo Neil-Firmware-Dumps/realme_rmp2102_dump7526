@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PDET>
+    <!--China-->
+ 	<TEST_ITEM name="LTE B1" desc="LTE_B1"
+        parmOn="AT+ERFTX=6,0,2,1,3,19500,1,0,0,0,50,1,20"
+        parmResult="AT+ERFTX=6,1"
+        parmOff="AT+ERFTX=6,0,0"
+        limit="[0,300]">
+    </TEST_ITEM>  
+    
+    <TEST_ITEM name="LTE B5" desc="LTE_B5"
+        parmOn="AT+ERFTX=6,0,2,5,3,8365,1,0,0,0,50,1,20"
+        parmResult="AT+ERFTX=6,1"
+        parmOff="AT+ERFTX=6,0,0"
+        limit="[0,300]">
+    </TEST_ITEM>
+	
+    <TEST_ITEM name="LTE B7" desc="LTE_B7"
+        parmOn="AT+ERFTX=6,0,2,7,3,25350,1,0,0,0,50,1,20"
+        parmResult="AT+ERFTX=6,1"
+        parmOff="AT+ERFTX=6,0,0"
+        limit="[0,300]">
+    </TEST_ITEM>
+	
+
+    
+</PDET>
+<CURRENT>
+ <TEST_ITEM name="GSM 1900" desc="GSM_1900"
+        parmOn="AT+ERFTX=2,1,512,4100,16,0,11,0"
+        parmResult=""
+        parmOff="AT+ERFTX=2,0"
+        limit="[0,300]">
+    </TEST_ITEM>
+
+<TEST_ITEM name="GSM 900" desc="GSM_900"
+        parmOn="AT+ERFTX=2,1,100,4100,2,0,11,0"
+        parmResult=""
+        parmOff="AT+ERFTX=2,0"
+        limit="[0,300]">
+</TEST_ITEM>
+
+<TEST_ITEM name="GSM 1800" desc="GSM_1800"
+        parmOn="AT+ERFTX=2,1,698,4100,8,0,4,0"
+        parmResult=""
+        parmOff="AT+ERFTX=2,0,8,100"
+        limit="[0,300]">
+</TEST_ITEM>
+	
+</CURRENT>

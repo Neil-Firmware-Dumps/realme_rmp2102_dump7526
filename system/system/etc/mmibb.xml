@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <testitem item_name="smarpa_autocaltest" item_action="SmartPAAutoCalTest" />
+
+    <testitem item_name="accelerator_test" item_action="Acce_45Deg"/>
+
+    <testitem item_name="gyroscope" item_action="Gyroscope_cab">
+        <accelerator_test config_name="gyroscopetype" config_value="framework" />
+    </testitem>
+
+    <testitem item_name="qccharge_test" item_action="QCChargeVoltage"/>
+
+</resources>

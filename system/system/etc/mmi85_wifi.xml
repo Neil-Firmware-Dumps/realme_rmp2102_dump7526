@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <testitem item_name="SDCard" item_action="TCard" >
+        <config config_name="hotplug" config_value="false"/>
+    </testitem>
+
+    <testitem item_name="touchpanel_test" item_action="Touchpanel_v2" >
+        <config config_name="v2_typec_test" config_value="true"/>
+        <config config_name="node_typec_orientation" config_value="/sys/class/power_supply/usb/typec_cc_orientation"/>
+        <config config_name="v2_diagonal_line_r" config_value="85"/>
+        <config config_name="v2grid_col_num" config_value="13"/>
+        <config config_name="v2grid_row_num" config_value="13"/>
+    </testitem>
+
+    <testitem item_name="qccharge_test" item_action="QCChargeVoltage"/>
+
+    <testitem item_name="light_sensor_test" item_action="LightCalibration_M510"/>
+
+    <testitem item_name="back_camera" item_action="BackCamAutoFocusTakePicTest" >
+        <config config_name="back_orientation" config_value="90"/>
+        <config config_name="back_height" config_value="-1"/>
+        <config config_name="back_width" config_value="-1"/>
+    </testitem>
+
+    <testitem item_name="front_camera" item_action="FrontCamTakePicTest" >
+        <config config_name="pre_orientation" config_value="90"/>
+    </testitem>
+
+    <testitem item_name="SarSensor" item_action="SarSensorCalibration">
+        <config config_name="SarSensorCal" config_value="true"/>
+    </testitem>
+
+</resources>

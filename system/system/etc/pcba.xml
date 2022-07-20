@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <testitem item_name="sim_status_test_uim" item_action="MultipleSimStatusCheck" />
+
+    <testitem item_name="front_camera" item_action="FrontTestCamera" >
+        <config config_name="pre_orientation" config_value="90"/>
+        <!--<config config_name="pre_height" config_value="720"/> -->
+        <!--<config config_name="pre_width" config_value="1280"/> -->
+    </testitem>
+
+    <testitem item_name="back_camera" item_action="BackCameraAutoFocus" >
+        <config config_name="back_orientation" config_value="90"/>
+        <config config_name="back_height" config_value="1080"/>
+        <config config_name="back_width" config_value="1920"/>
+    </testitem>
+
+    <!--<testitem item_name="tp_autotest_title" item_action="TpSelfTestNode" />-->
+
+    <testitem item_name="earphone_test" item_action="AmericanEarphone" />
+
+    <!--<testitem item_name="FM" item_action="Fm" />-->
+
+    <testitem item_name="backlight_keypadlight_test" item_action="BacklightKeypadLight" />
+
+    <!--<testitem item_name="motor1" item_action="Motor1" />-->
+
+    <testitem item_name="keyboard" item_action="MidtestKeyboard" />
+
+    <testitem item_name="audio_speaker" item_action="VoiceNumberSpeakerTest" />
+
+    <!--<testitem item_name="audio_speaker_right" item_action="AutoSpeakerRight" />-->
+
+    <testitem item_name="mic1test" item_action="Mic1Loopback" >
+        <config config_name="mic_key" config_value="record_select_mic"/>
+        <config config_name="mic_value" config_value="handset-mic"/>
+        <config config_name="mic_limit" config_value="25"/>
+    </testitem>
+
+    <testitem item_name="mic2test" item_action="Mic2Loopback" >
+        <config config_name="mic2_key" config_value="record_select_mic"/>
+        <config config_name="mic2_value" config_value="firstly-mic"/>
+        <config config_name="mic2_limit" config_value="25"/>
+    </testitem>
+
+    <!--<testitem item_name="audio_speaker_left" item_action="AutoSpeakerLeft"/>-->
+
+    <!--<testitem item_name="lcd" item_action="Lcd6Color" >
+        <color_item type="color" value="#FF0000"/>
+        <color_item type="image" value="/system/etc/onedot_port.png"/>
+        <color_item type="color" value="#0000FF"/>
+        <color_item type="color" value="#00FF00"/>
+        <color_item type="color" value="#FFFFFF"/>
+        <color_item type="color" value="#000000"/>
+        <color_item type="color" value="#444444"/>
+    </testitem>-->
+
+    <testitem item_name="qccharge_test" item_action="QCChargeVoltage"/>
+
+    <!--<testitem item_name="accelerator_test" item_action="Acce">
+        &lt;!&ndash; acctype is calibration method,value is framework,jni,bin &ndash;&gt;
+        <accelerator_test config_name="accetype" config_value="jni" />
+        <accelerator_test config_name="testAcce" config_value="true"/>
+        <accelerator_test config_name="testgyro" config_value="false"/>
+        &lt;!&ndash;acce calibration data clear or not &ndash;&gt;
+        <accelerator_test config_name="acceclear" config_value="true"/>
+    </testitem>
+
+    <testitem item_name="light_sensor_test" item_action="LightSensor"/>-->
+
+    <testitem item_name="HallSensor" item_action="HolsterHall"/>
+
+    <!--<testitem item_name="gyroscope" item_action="Gyroscope"/>-->
+
+    <!--<testitem item_name="SarSensor" item_action="SarSensorCalibration">
+         <config config_name="SarSensorCal" config_value="false"/>
+    </testitem>-->
+
+    <testitem item_name="OTG" item_action="OtgP5200" />
+
+    <testitem item_name="bluetooth" item_action="Bluetooth" />
+
+    <testitem item_name="wifi_test" item_action="Wifi" />
+
+     <testitem item_name="gps_test" item_action="Gps" />
+
+    <testitem item_name="SDCard" item_action="TCard" >
+        <config config_name="hotplug" config_value="false"/>
+    </testitem>
+
+    <!--<testitem item_name="UimCard_test" item_action="UimCard" />-->
+</resources>

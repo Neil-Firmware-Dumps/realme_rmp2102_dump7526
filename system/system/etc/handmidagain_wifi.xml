@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <testitem item_name="front_camera" item_action="FrontCamTakePicTest" >
+        <config config_name="pre_orientation" config_value="90"/>
+    </testitem>
+
+    <testitem item_name="back_camera" item_action="BackCamAutoFocusTakePicTest" >
+        <config config_name="back_orientation" config_value="90"/>
+        <config config_name="back_height" config_value="-1"/>
+        <config config_name="back_width" config_value="-1"/>
+    </testitem>
+
+    <testitem item_name="backlight_test" item_action="BacklightDocomo" />
+
+    <testitem item_name="earphone_test" item_action="AmericanEarphone" />
+
+    <testitem item_name="lcd" item_action="Lcd6Color" >
+        <color_item type="color" value="#FF0000"/>
+        <color_item type="image" value="/system/etc/onedot_port.png"/>
+        <color_item type="color" value="#0000FF"/>
+        <color_item type="color" value="#00FF00"/>
+        <color_item type="color" value="#FFFFFF"/>
+        <color_item type="color" value="#000000"/>
+        <color_item type="color" value="#444444"/>
+    </testitem>
+
+    <testitem item_name="audio_speaker" item_action="VoiceNumberSpeakerTest" />
+
+    <!--<testitem item_name="motor_test" item_action="VibrationModeSelectionTest" />-->
+
+    <testitem item_name="keyboard" item_action="MidtestKeyboard" />
+
+    <testitem item_name="mic1test" item_action="Mic1Loopback" >
+        <config config_name="mic_limit" config_value="25"/>
+    </testitem>
+
+    <testitem item_name="mic2test" item_action="Mic2Loopback" >
+        <config config_name="mic_limit" config_value="25"/>
+    </testitem>
+
+    <testitem item_name="touchpanel_test" item_action="Touchpanel_v2" >
+        <config config_name="v2_typec_test" config_value="true"/>
+        <config config_name="node_typec_orientation" config_value="/sys/class/power_supply/usb/typec_cc_orientation"/>
+        <config config_name="v2_diagonal_line_r" config_value="85"/>
+        <config config_name="v2grid_col_num" config_value="13"/>
+        <config config_name="v2grid_row_num" config_value="13"/>
+    </testitem>
+
+    <testitem item_name="tp_autotest_title" item_action="TpSelfTestNode" />
+
+    <!--<testitem item_name="multipoint_test" item_action="MultiPoint" />-->
+
+    <testitem item_name="charge_test" item_action="ChargeVoltage"/>
+
+    <testitem item_name="qccharge_test" item_action="QCChargeVoltage"/>
+
+    <testitem item_name="pdcharge_test" item_action="PDChargeVoltage"/>
+
+    <testitem item_name="accelerator_test" item_action="Acce"/>
+
+    <testitem item_name="light_sensor_test" item_action="LightSensor"/>
+
+    <testitem item_name="HallSensor" item_action="HolsterHall"/>
+
+    <testitem item_name="OTG" item_action="OtgP5200" />
+
+    <testitem item_name="gyroscope" item_action="Gyroscope"/>
+
+    <!--<testitem item_name="SarSensor" item_action="SarSensorCalibration">
+        <config config_name="SarSensorCal" config_value="false"/>
+    </testitem>-->
+
+    <testitem item_name="bluetooth" item_action="Bluetooth" />
+
+    <testitem item_name="wifi_test" item_action="Wifi" />
+
+    <testitem item_name="gps_test" item_action="Gps" />
+
+    <testitem item_name="SDCard" item_action="TCard" >
+        <config config_name="hotplug" config_value="false"/>
+    </testitem>
+
+
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<parameter>
+    <!-- landscape , portrait -->
+    <options
+        name="screen_orientation"
+        para="portrait" >
+    </options>
+
+    <options
+        name="rt_language"
+        para="CN" >
+    </options>
+    <options
+        name="charge_limit"
+        para="[60-65]" >
+    </options>
+
+    <options
+        name="pro_info"
+        para="61" >
+    </options>
+
+    <options
+        name="mmi87_i"
+        para="379" >
+    </options>
+
+    <!-- Parameter Start -->
+
+    <item
+        name="rt_reboot"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_i2c"
+        para="arm9{ACC,LSENSOR,SAR};"
+        switch="true">
+    </item>
+
+    <item
+         name="rt_tp"
+         para="hx83102{node{/proc/android_touch/self_test}};nt36523{node{/proc/tp_selftest}};"        switch="true">
+    </item>
+
+    <item
+        name="rt_pa"
+        switch="false">
+    </item>
+
+    <item
+        name="rt_lcdled"
+        para="led:not test"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_cpu"
+        para="4"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_bt"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_wifi"
+        switch="false">
+    </item>
+
+    <item
+        name="rt_audioloop"
+        para="mic{record_select_mic,handset-mic};mic2{record_select_mic,secondary-mic};35;20"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_video"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_s3"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_vibrator"
+        switch="false">
+    </item>
+
+    <item
+        name="rt_parts"
+        para="parts_bt,parts_camera,parts_camera_front,parts_wifi,"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_fingerprint"
+        para="FPC1520,com.fingerprints.fpctest/.activities.FpcActivity;FOCALTECH,com.focaltech.fingerprint/.activity.FingerprintMainActivity;"
+        switch="false">
+    </item>
+
+    <!-- para="open[0,-1];openLegacy[2,0x100];open[1,-1]" -->
+    <item
+        name="rt_camera"
+        para="open[0,-1];open[1,-1]"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_emmc"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_ddr"
+        switch="true">
+    </item>
+
+    <item
+        name="rt_current"
+        para="current_light[0-99990000];current_dark[0-99990000];
+        current_bt[0-99990000];current_codec[0-99990000];
+        current_camera0[0-99990000];current_camera1[0-99990000]"
+        switch="true">
+    </item>
+    <!-- Parameter end -->
+
+</parameter>

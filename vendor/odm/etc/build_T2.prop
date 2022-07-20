@@ -1,0 +1,8 @@
+
+ro.product.odm.brand=realme
+ro.product.odm.manufacturer=realme
+ro.product.odm.name=RMP2102
+ro.product.odm.device=RE54C1L1
+ro.product.odm.model=RMP2102
+ro.odm.build.version.incremental=1656385444014
+ro.odm.build.fingerprint=realme/RMP2102/RE54C1L1:11/RP1A.200720.011/1656385444014:user/release-keys
